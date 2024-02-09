@@ -1,0 +1,2 @@
+service sshd restart
+ssh 165.232.177.49 -p 2222
