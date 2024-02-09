@@ -1,0 +1,70 @@
+root@lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01:~# tcpdump -c 6 -XX -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+14:03:10.957976 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 2848941952:2848942080, ack 1582227158, win 501, options [nop,nop,TS val 3353911185 ecr 557886275], length 128
+        0x0000:  fe00 0000 0101 babd 243b 22ea 0800 4510  ........$;"...E.
+        0x0010:  00b4 12f8 4000 4006 6eec a5e8 b131 a2f3  ....@.@.n....1..
+        0x0020:  be42 0016 a869 a9cf 6780 5e4e ded6 8018  .B...i..g.^N....
+        0x0030:  01f5 b8f6 0000 0101 080a c7e8 9f91 2140  ..............!@
+        0x0040:  ab43 02ac ae67 6c6d 7b8f ec2d 9ef5 c43d  .C...glm{..-...=
+        0x0050:  3e87 9af1 229f 973e 1bcf 930d d91f 1cfa  >..."..>........
+        0x0060:  0001 88c4 a1f0 7882 344b fe23 7f40 f389  ......x.4K.#.@..
+        0x0070:  a595 aae9 1543 a6aa 8a5b 3780 64fc 742c  .....C...[7.d.t,
+        0x0080:  1273 bc5c 3346 15fb 59bd 9467 fbf1 1c2b  .s.\3F..Y..g...+
+        0x0090:  d5ce aedd c32c cf87 24a7 7026 e660 2f65  .....,..$.p&.`/e
+        0x00a0:  9860 2c43 57ca 4901 6920 12da 22f7 7a9d  .`,CW.I.i...".z.
+        0x00b0:  7291 92cb 1d8b b1cf 4432 33fe 0f38 5daa  r.......D23..8].
+        0x00c0:  34fa                                     4.
+14:03:10.958051 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 128:192, ack 1, win 501, options [nop,nop,TS val 3353911185 ecr 557886275], length 64
+        0x0000:  fe00 0000 0101 babd 243b 22ea 0800 4510  ........$;"...E.
+        0x0010:  0074 12f9 4000 4006 6f2b a5e8 b131 a2f3  .t..@.@.o+...1..
+        0x0020:  be42 0016 a869 a9cf 6800 5e4e ded6 8018  .B...i..h.^N....
+        0x0030:  01f5 b8b6 0000 0101 080a c7e8 9f91 2140  ..............!@
+        0x0040:  ab43 0ad4 bff1 7ce7 57df 60c3 aa05 c161  .C....|.W.`....a
+        0x0050:  e452 c60a ac7d 94dd d2ca 43df bc99 035a  .R...}....C....Z
+        0x0060:  d2ee b63b de27 dcc3 43ec b5b2 221d 7406  ...;.'..C...".t.
+        0x0070:  e89b 1b55 cfc8 5b7f 538f 3ab4 ed5a 0caf  ...U..[.S.:..Z..
+        0x0080:  212b                                     !+
+14:03:10.958087 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 192:320, ack 1, win 501, options [nop,nop,TS val 3353911185 ecr 557886275], length 128
+        0x0000:  fe00 0000 0101 babd 243b 22ea 0800 4510  ........$;"...E.
+        0x0010:  00b4 12fa 4000 4006 6eea a5e8 b131 a2f3  ....@.@.n....1..
+        0x0020:  be42 0016 a869 a9cf 6840 5e4e ded6 8018  .B...i..h@^N....
+        0x0030:  01f5 b8f6 0000 0101 080a c7e8 9f91 2140  ..............!@
+        0x0040:  ab43 e20d 373f ff7d d265 dd9c 0952 9334  .C..7?.}.e...R.4
+        0x0050:  ba0b 0ded be94 cde3 4c58 e693 6883 d116  ........LX..h...
+        0x0060:  2ded 33cf 06c1 96e1 a515 ac6a b07c 92aa  -.3........j.|..
+        0x0070:  dcd0 de4a 14dd 88ec a925 a98a 3bd6 8ef1  ...J.....%..;...
+        0x0080:  d613 915a f401 cdae 3e55 02ff f208 0eb8  ...Z....>U......
+        0x0090:  4043 0dae 1525 dff5 d34c ded5 a96c 3db2  @C...%...L...l=.
+        0x00a0:  8243 7305 7eb6 d56c 4d49 f89b 9860 fde4  .Cs.~..lMI...`..
+        0x00b0:  4c0b 27a2 11ad 47a1 bf23 3a12 501c 19e0  L.'...G..#:.P...
+        0x00c0:  9e58                                     .X
+14:03:10.958125 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 320:384, ack 1, win 501, options [nop,nop,TS val 3353911185 ecr 557886275], length 64
+        0x0000:  fe00 0000 0101 babd 243b 22ea 0800 4510  ........$;"...E.
+        0x0010:  0074 12fb 4000 4006 6f29 a5e8 b131 a2f3  .t..@.@.o)...1..
+        0x0020:  be42 0016 a869 a9cf 68c0 5e4e ded6 8018  .B...i..h.^N....
+        0x0030:  01f5 b8b6 0000 0101 080a c7e8 9f91 2140  ..............!@
+        0x0040:  ab43 bfd1 8b99 bc07 f7a4 2b90 26af 0729  .C........+.&..)
+        0x0050:  9d29 be6f a3f8 ca08 b1e3 b9f0 1418 cbc8  .).o............
+        0x0060:  f281 8143 2e7a 6b8a ebcb e38a 44d0 9fdc  ...C.zk.....D...
+        0x0070:  dd72 8f42 ca54 e50d af88 dbe9 b132 d7f1  .r.B.T.......2..
+        0x0080:  6c95                                     l.
+14:03:10.958776 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.47204 > 67.207.67.2.domain: 37281+ [1au] PTR? 66.190.243.162.in-addr.arpa. (56)
+        0x0000:  fe00 0000 0101 babd 243b 22ea 0800 4500  ........$;"...E.
+        0x0010:  0054 8f42 4000 4011 cd6b a5e8 b131 43cf  .T.B@.@..k...1C.
+        0x0020:  4302 b864 0035 0040 de3c 91a1 0100 0001  C..d.5.@.<......
+        0x0030:  0000 0000 0001 0236 3603 3139 3003 3234  .......66.190.24
+        0x0040:  3303 3136 3207 696e 2d61 6464 7204 6172  3.162.in-addr.ar
+        0x0050:  7061 0000 0c00 0100 0029 0200 0000 0000  pa.......)......
+        0x0060:  0000                                     ..
+14:03:10.958834 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.38141 > 67.207.67.2.domain: 43986+ [1au] PTR? 66.190.243.162.in-addr.arpa. (56)
+        0x0000:  fe00 0000 0101 babd 243b 22ea 0800 4500  ........$;"...E.
+        0x0010:  0054 8f43 4000 4011 cd6a a5e8 b131 43cf  .T.C@.@..j...1C.
+        0x0020:  4302 94fd 0035 0040 de3c abd2 0100 0001  C....5.@.<......
+        0x0030:  0000 0000 0001 0236 3603 3139 3003 3234  .......66.190.24
+        0x0040:  3303 3136 3207 696e 2d61 6464 7204 6172  3.162.in-addr.ar
+        0x0050:  7061 0000 0c00 0100 0029 0200 0000 0000  pa.......)......
+        0x0060:  0000                                     ..
+6 packets captured
+46 packets received by filter
+9 packets dropped by kernels

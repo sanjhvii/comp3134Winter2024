@@ -1,0 +1,28 @@
+root@lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01:~# tcpdump -c 6 -A -i eth0
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+14:01:16.782453 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 2846092128:2846092192, ack 1582222518, win 501, options [nop,nop,TS val 3353797009 ecr 557772099], length 64
+E..t
+.@.@.w....1...B...i...`^N.............
+....!>.C.K...Q...q.....k....K^Xo...{.\..NJ;[.Q...U e......e...b3.Z3.0.e.
+14:01:16.782833 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 64:192, ack 1, win 501, options [nop,nop,TS val 3353797009 ecr 557772099], length 128
+E...
+.@.@.w`...1...B...i....^N.............
+....!>.C.......E.@-....Pk....`..+..3"D..m.....)...<...l..i....m..9.J.R....M..-.4A6..'.5..m$.L.O....`4}x..%....)...._.=..+./....oN:."..h.
+14:01:16.782867 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 192:256, ack 1, win 501, options [nop,nop,TS val 3353797010 ecr 557772099], length 64
+E..t
+.@.@.w....1...B...i... ^N.............
+....!>.C.\.....4f1.../....'..)+../@.b_.y...^_.. cu.la.......C..F1.....6.
+14:01:16.782928 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 256:384, ack 1, win 501, options [nop,nop,TS val 3353797010 ecr 557772099], length 128
+E...
+.@.@.w^...1...B...i...`^N.............
+....!>.Cg.2..{0.@)Z..p..x....lk...5n.._~..YN..O......C..(..     D..*l..>Cp.o..B......p...h...=..~i.%?e.4..]..1..@3.r....!.Dw........q...Dg..
+14:01:16.782967 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 384:448, ack 1, win 501, options [nop,nop,TS val 3353797010 ecr 557772099], length 64
+E..t
+.@.@.w....1...B...i....^N.............
+....!>.C.t.b....x.OX~:.C..@...H:.J..]*-,...._.2..........JDK2.m....0c.A)
+14:01:16.783429 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.37176 > 67.207.67.2.domain: 25879+ [1au] PTR? 66.190.243.162.in-addr.arpa. (56)
+E..TI*@.@......1C.C..8.5.@.<e............66.190.243.162.in-addr.arpa.......)........
+6 packets captured
+46 packets received by filter
+9 packets dropped by kernel
