@@ -1,0 +1,41 @@
+<?php
+// Display error messages
+ini_set('display_errors', 1);
+ini_set('display_startup_errors', 1);
+error_reporting(E_ALL);
+
+// Set the base directory
+$base_dir = '/var/www/html/';
+
+// Get the requested path from the query string, or use the current directory if none is provided
+$path = isset($_GET['q']) ? $_GET['q'] : '.';
+
+// Check if the requested path contains a dot character (indicating a file)
+if (strpos($path, '.') !== false) {
+    // If so, terminate the script with an error message
+    echo "Invalid path. Directories only.";
+    exit;
+}
+
+// Check if the requested directory exists
+if (!file_exists($path) || !is_dir($path)) {
+    // If not, terminate the script with an error message
+    echo "Invalid path. Directory does not exist.";
+    exit;
+}
+
+// Check if the requested path is within the specified directory or its subdirectories
+if (!empty($path) && basename(realpath($path)) !== basename($path) || strpos(realpath($path), $base_dir) !== 0) {
+    // If not, terminate the script with an error message
+    echo "Invalid path. Path is outside the allowed directory.";
+    exit;
+}
+
+// Get a list of files and directories in the requested path
+$file_list = scandir($path);
+
+// Display the file list in a preformatted block
+echo "<pre>";
+print_r($file_list);
+echo "</pre>";
+?>

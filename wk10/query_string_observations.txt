@@ -1,0 +1,4 @@
+1) The url changed from https://www.dictionary.com/browse/cybersecurity to https://www.dictionary.com/browse/computer.
+2) The url changed and displayed no result. the url also did not show /browse and changed to misspelling?term=dsajkdgsa
+3) The url changed to https://www.dictionary.com/noresult?term=%3Cscript%3Ealert(%27hello%27)%3C%2Fscript%3E. 
+4) The url changed to https://www.dictionary.com/noresult?term=%3Cscript%3Ealert(%27hello%27)%3C/script%3E

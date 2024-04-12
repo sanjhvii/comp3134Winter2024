@@ -1,0 +1,2 @@
+I see the contents of root directory.
+The sensitive information given here is contents of root directory.

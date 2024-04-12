@@ -1,0 +1,5 @@
+You have the option to either remove all HTML and PHP tags from a string or only select certain ones. By using the built-in function strip_tags(), you can provide a string as input and specify which tags should be allowed for removal.
+
+htmlspecialchars() can be called with a string parameter, as well as optional parameters such as 'flags' and 'encoding'. Additionally, there is a 'double encoding' option that is enabled by default. If this option is disabled, PHP will not encode existing HTML entities.
+
+htmlentities is used to convert all HTML characters in a string into their respective HTML entities. This means that each character will be translated to its corresponding entity equivalent.

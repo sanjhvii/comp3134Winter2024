@@ -1,0 +1,2 @@
+There are two errors displayed in the browser.
+The sensitive information is revealed in the error. The error message provides the file path which reveals the directory structure to a pottential attacker. This information can be used in further attack to the server.

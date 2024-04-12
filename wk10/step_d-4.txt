@@ -1,0 +1,2 @@
+I see the contents of the path specified in the query.
+The sensitive information revealed here it reveals the contents of the folder specified.
