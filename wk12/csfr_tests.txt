@@ -1,0 +1,4 @@
+In the csfr.html page, the form data is submitted to the web server without including any hidden field to validate the authenticity of the submission. 
+As a result, the security of the system is reduced since there is no way to verify if the submitted data is legitimate or not.
+
+in the csfr_form, it provides safer browsing experiece for users because there is a hidden field for the token that the user submits evertime user submits the form.

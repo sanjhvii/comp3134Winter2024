@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Reflected XSS</title>
+  </head>
+  <body>
+    <h1>Reflected XSS</h1>
+    <form id="myForm">
+      <label for="inputField">Enter text:</label>
+      <input type="text" id="inputField" name="inputField">
+      <br>
+      <input type="submit" value="Submit">
+    </form>
+    <div id="outputDiv"></div>
+    <script>
+
+      const myForm = document.getElementById("myForm");
+      const outputDiv = document.getElementById("outputDiv");
+
+      // Disable the default form behavior and handle form submission
+      myForm.addEventListener("submit", (event) => {
+        event.preventDefault();
+
+        // Get the value of the input field
+        const inputField = document.getElementById("inputField");
+        const inputValue = inputField.value;
+
+        // Display the input value in the output div
+        outputDiv.innerHTML = `<p>Input value: ${inputValue}</p>`;
+      });
+    </script>
+  </body>
+</html>

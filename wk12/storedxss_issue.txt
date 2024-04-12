@@ -1,0 +1,1 @@
+the issue i see is when php opens the file, it is being read as javascript code because the file is opened without sanitizing
