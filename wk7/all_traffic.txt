@@ -1,0 +1,1 @@
+tcpdump -i eth0 -w all_traffic$(date +%Y-%m-%d_%H:%M:%S).pcap
