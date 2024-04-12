@@ -1,0 +1,36 @@
+142.251.46.238	IPv4	Hosted by Google LLC Google LLC	United States of America
+Google LLC
+Location	San Jose, California, United States of America
+AS	AS15169
+AS name	Google LLC
+
+
+
+99.79.139.11	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	Canada
+Amazon Data Services Canada
+Location	Montréal, Quebec, Canada
+AS	AS16509
+AS name	Amazon.com, Inc.
+
+
+
+35.71.184.76	IPv4	Hosted by Amazon.com, Inc. Amazon.com, Inc.	United States of America
+Amazon Technologies Inc.
+Location	Seattle, Washington, United States of America
+AS	AS16509
+AS name	Amazon.com, Inc.
+
+
+
+20.76.201.171	IPv4	Hosted by Microsoft Corporation Microsoft Corporation	Netherlands
+Microsoft Corporation
+Location	Amsterdam, North Holland, Netherlands
+AS	AS8075
+AS name	Microsoft Corporation
+
+
+192.30.255.113	IPv4	Hosted by GitHub, Inc. GitHub, Inc.	United States of America
+GitHub, Inc.
+Location	Seattle, Washington, United States of America
+AS	AS36459
+AS name	GitHub, Inc.
