@@ -1,0 +1,12 @@
+root@lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01:~# tcpdump -c 6 -i eth0 tcp
+tcpdump: verbose output suppressed, use -v or -vv for full protocol decode
+listening on eth0, link-type EN10MB (Ethernet), capture size 262144 bytes
+14:06:17.523717 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 2849528032:2849528096, ack 1582236726, win 501, options [nop,nop,TS val 3354097750 ecr 558072839], length 64
+14:06:17.524783 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 64:192, ack 1, win 501, options [nop,nop,TS val 3354097751 ecr 558072839], length 128
+14:06:17.524832 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 192:256, ack 1, win 501, options [nop,nop,TS val 3354097751 ecr 558072839], length 64
+14:06:17.524895 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 256:384, ack 1, win 501, options [nop,nop,TS val 3354097752 ecr 558072839], length 128
+14:06:17.524935 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 384:448, ack 1, win 501, options [nop,nop,TS val 3354097752 ecr 558072839], length 64
+14:06:17.528298 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 448:720, ack 1, win 501, options [nop,nop,TS val 3354097755 ecr 558072839], length 272
+6 packets captured
+10 packets received by filter
+0 packets dropped by kernel

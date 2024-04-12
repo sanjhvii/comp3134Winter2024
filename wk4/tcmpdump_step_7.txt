@@ -1,0 +1,27 @@
+root@lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01:~# tcpdump -r 0001.pcap
+reading from file 0001.pcap, link-type EN10MB (Ethernet)
+14:03:45.733341 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 2848960080:2848960144, ack 1582227686, win 501, options [nop,nop,TS val 3353945960 ecr 557921052], length 64
+14:03:45.733388 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 64:192, ack 1, win 501, options [nop,nop,TS val 3353945960 ecr 557921052], length 128
+14:03:45.733415 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 162.243.190.66.43113: Flags [P.], seq 192:256, ack 1, win 501, options [nop,nop,TS val 3353945960 ecr 557921052], length 64
+14:03:46.026172 IP 162.243.190.66.43113 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [.], ack 0, win 2005, options [nop,nop,TS val 557921349 ecr 3353945957], length 0
+14:03:46.028697 IP 162.243.190.66.43113 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [.], ack 64, win 2005, options [nop,nop,TS val 557921352 ecr 3353945960], length 0
+14:03:46.028716 IP 162.243.190.66.43113 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [.], ack 192, win 2005, options [nop,nop,TS val 557921352 ecr 3353945960], length 0
+14:03:46.028716 IP 162.243.190.66.43113 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [.], ack 256, win 2005, options [nop,nop,TS val 557921352 ecr 3353945960], length 0
+14:03:46.562716 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 110.42.140.78.45576: Flags [P.], seq 3320321173:3320321241, ack 2545330524, win 507, options [nop,nop,TS val 2207639248 ecr 3946500043], length 68
+14:03:46.687204 IP 49.88.112.77.16693 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [S], seq 2017752473, win 29200, options [mss 1460,sackOK,TS val 1899554636 ecr 0,nop,wscale 7], length 0
+14:03:46.687272 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01 > 49.88.112.77: ICMP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01 tcp port ssh unreachable, length 68
+14:03:46.975523 IP 110.42.140.78.45576 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [.], ack 68, win 501, options [nop,nop,TS val 3946504095 ecr 2207639248], length 0
+14:03:46.980702 IP 110.42.140.78.45576 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [P.], seq 1:53, ack 68, win 501, options [nop,nop,TS val 3946504101 ecr 2207639248], length 52
+14:03:46.980702 IP 110.42.140.78.45576 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [F.], seq 53, ack 68, win 501, options [nop,nop,TS val 3946504101 ecr 2207639248], length 0
+14:03:46.980738 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 110.42.140.78.45576: Flags [.], ack 53, win 507, options [nop,nop,TS val 2207639666 ecr 3946504101], length 0
+14:03:46.982963 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > 110.42.140.78.45576: Flags [F.], seq 68, ack 54, win 507, options [nop,nop,TS val 2207639669 ecr 3946504101], length 0
+14:03:47.395891 IP 110.42.140.78.45576 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [.], ack 69, win 501, options [nop,nop,TS val 3946504516 ecr 2207639669], length 0
+14:03:50.447942 IP ip157.ip-54-39-245.net.59142 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [S], seq 2748359124, win 64240, options [mss 1460,sackOK,TS val 3592901219 ecr 0,nop,wscale 7], length 0
+14:03:50.448020 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > ip157.ip-54-39-245.net.59142: Flags [S.], seq 796377714, ack 2748359125, win 65160, options [mss 1460,sackOK,TS val 3418019733 ecr 3592901219,nop,wscale 7], length 0
+14:03:50.710258 IP ip157.ip-54-39-245.net.59142 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [.], ack 1, win 502, options [nop,nop,TS val 3592901483 ecr 3418019733], length 0
+14:03:50.719203 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > ip157.ip-54-39-245.net.59142: Flags [P.], seq 1:42, ack 1, win 510, options [nop,nop,TS val 3418020004 ecr 3592901483], length 41
+14:03:50.820897 IP ip157.ip-54-39-245.net.59142 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [P.], seq 1:24, ack 1, win 502, options [nop,nop,TS val 3592901593 ecr 3418019733], length 23
+14:03:50.820957 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > ip157.ip-54-39-245.net.59142: Flags [.], ack 24, win 510, options [nop,nop,TS val 3418020106 ecr 3592901593], length 0
+14:03:50.991459 IP ip157.ip-54-39-245.net.59142 > lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh: Flags [.], ack 42, win 502, options [nop,nop,TS val 3592901758 ecr 3418020004], length 0
+14:03:50.991520 IP lamponubuntu2004-s-1vcpu-1gb-amd-blr1-01.ssh > ip157.ip-54-39-245.net.59142: Flags [P.], seq 42:1098, ack 24, win 510, options [nop,nop,TS val 3418020276 ecr 3592901758], length 1056
+tcpdump: pcap_loop: truncated dump file; tried to read 714 captured bytes, only got 532
