@@ -1,0 +1,18 @@
+1. What is the definition of server port?
+Unique numbers that are used to identify the network endpoint communication taking place between the web server and web client.
+2. What is server port range ?
+  65535
+3. How many bits does number above represent? 
+	65535 bytes becomes 524280 bits
+
+4. State 10 common server ports
+ 1. Port 80 HTTP
+ 2. Port 20 FTP Data Transfer
+ 3. Port 21 FTP command control
+ 4. Port 53 Domain Name System (DNS) service
+ 5. Port 123 Network time protocol
+ 6. Port 443 HTTP secure
+ 7. Port 22 Secure Shell
+ 8. Port 194 Internet Relay Chat
+ 9. Port 3306 MYSQL 
+ 10. Port 110 POP3
