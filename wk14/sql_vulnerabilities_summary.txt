@@ -1,0 +1,6 @@
+first try: Nothing showed up.
+
+second try: Just one value showed up, Ben. Due to -- in sql the comment out the rest of 
+the sql query and ignoring the part which says active like 1.. 
+
+third try: Nothing showed up!
